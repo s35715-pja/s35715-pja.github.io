@@ -5,7 +5,7 @@
             color: #420e0e;
             margin:0px; 
             padding:0px; 
-            background-image:url(https://i.pinimg.com/1200x/bc/58/37/bc5837c521a1f9d1146c4645bb897d39.jpg);
+            background-image:url(https://img.freepik.com/free-vector/dark-red-buffalo-plaid-background_78370-5461.jpg?semt=ais_hybrid&w=740&q=80);
             background-size: cover;
         }
         .link{
@@ -56,11 +56,12 @@
             align-items: center;
             display: flex;
             flex-direction: column;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         h1 {
             font-size: 48px;
-            color: #992f2f;
+            color: rgb(255, 255, 0);
             align-self: center;
             align-items: center;
             align-content: center;
@@ -70,9 +71,15 @@
         h2 {
             margin: 10px;
             padding: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             color: rgb(255, 255, 0);
             font-family: arial, sans-serif;
             text-align: center;
+            background-color:rgba(255, 102, 0, 0.7)
+        }
+        h2:hover {
+            transform: scale(1.05);
+             transition-duration: 0.5s;
         }
 
         div {
@@ -83,15 +90,16 @@
         p {
             margin: 10px;
             padding: 10px;
-            color: rgb(255, 244, 198);
+            color: rgb(255, 237, 165);
             font-family: arial, sans-serif;
+            background-color:rgba(255, 102, 0, 0.7);
         }
 
         img {
             width: 60%;
             height: auto;
             align-content: center;
-            border-radius: 5px;
+            border-radius: 0;
             transition-duration: 0.5s;
         }
 
@@ -111,5 +119,37 @@
             text-align: center;
             padding: 10px;
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            border-top: 1px solid #ff9500;
+            border-top: 1px solid #ff9500;}
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            color: rgb(255, 237, 165);
+             background-color:rgba(255, 200, 0, 0.7);
+        }
+        th, td {
+            border: 2px solid rgb(255, 102, 0, 0.7);
+            padding: 10px;
+            text-align: left;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        ol {
+            margin: 0;
+            padding: 10px;
+            color: rgb(255, 237, 165);
+            font-family: arial, sans-serif;
+            background-color:rgba(255, 102, 0, 0.7);
+        }
+        ol li {
+            margin: 5px;
+            padding: 5px;
+            background-color: rgba(255, 200, 0, 0.7);
+            border: 1px solid rgba(255, 102, 0, 0.7);
+            border-radius: 5px;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
         }
